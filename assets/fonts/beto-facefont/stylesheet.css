@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-BoldItalic.eot');
+    src: url('BwBetoGrande-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-BoldItalic.woff2') format('woff2'),
+        url('BwBetoGrande-BoldItalic.woff') format('woff'),
+        url('BwBetoGrande-BoldItalic.svg#BwBetoGrande-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-Bold.eot');
+    src: url('BwBetoGrande-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-Bold.woff2') format('woff2'),
+        url('BwBetoGrande-Bold.woff') format('woff'),
+        url('BwBetoGrande-Bold.svg#BwBetoGrande-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-BoldItalic.eot');
+    src: url('BwBeto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-BoldItalic.woff2') format('woff2'),
+        url('BwBeto-BoldItalic.woff') format('woff'),
+        url('BwBeto-BoldItalic.svg#BwBeto-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-Bold.eot');
+    src: url('BwBeto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-Bold.woff2') format('woff2'),
+        url('BwBeto-Bold.woff') format('woff'),
+        url('BwBeto-Bold.svg#BwBeto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-BlackItalic.eot');
+    src: url('BwBetoGrande-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-BlackItalic.woff2') format('woff2'),
+        url('BwBetoGrande-BlackItalic.woff') format('woff'),
+        url('BwBetoGrande-BlackItalic.svg#BwBetoGrande-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-LightItalic.eot');
+    src: url('BwBetoGrande-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-LightItalic.woff2') format('woff2'),
+        url('BwBetoGrande-LightItalic.woff') format('woff'),
+        url('BwBetoGrande-LightItalic.svg#BwBetoGrande-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-Black.eot');
+    src: url('BwBeto-Black.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-Black.woff2') format('woff2'),
+        url('BwBeto-Black.woff') format('woff'),
+        url('BwBeto-Black.svg#BwBeto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-Black.eot');
+    src: url('BwBetoGrande-Black.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-Black.woff2') format('woff2'),
+        url('BwBetoGrande-Black.woff') format('woff'),
+        url('BwBetoGrande-Black.svg#BwBetoGrande-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-Light.eot');
+    src: url('BwBetoGrande-Light.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-Light.woff2') format('woff2'),
+        url('BwBetoGrande-Light.woff') format('woff'),
+        url('BwBetoGrande-Light.svg#BwBetoGrande-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-MediumItalic.eot');
+    src: url('BwBetoGrande-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-MediumItalic.woff2') format('woff2'),
+        url('BwBetoGrande-MediumItalic.woff') format('woff'),
+        url('BwBetoGrande-MediumItalic.svg#BwBetoGrande-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-RegularItalic.eot');
+    src: url('BwBetoGrande-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-RegularItalic.woff2') format('woff2'),
+        url('BwBetoGrande-RegularItalic.woff') format('woff'),
+        url('BwBetoGrande-RegularItalic.svg#BwBetoGrande-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-Light.eot');
+    src: url('BwBeto-Light.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-Light.woff2') format('woff2'),
+        url('BwBeto-Light.woff') format('woff'),
+        url('BwBeto-Light.svg#BwBeto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-Regular.eot');
+    src: url('BwBetoGrande-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-Regular.woff2') format('woff2'),
+        url('BwBetoGrande-Regular.woff') format('woff'),
+        url('BwBetoGrande-Regular.svg#BwBetoGrande-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto Grande';
+    src: url('BwBetoGrande-Medium.eot');
+    src: url('BwBetoGrande-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BwBetoGrande-Medium.woff2') format('woff2'),
+        url('BwBetoGrande-Medium.woff') format('woff'),
+        url('BwBetoGrande-Medium.svg#BwBetoGrande-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-LightItalic.eot');
+    src: url('BwBeto-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-LightItalic.woff2') format('woff2'),
+        url('BwBeto-LightItalic.woff') format('woff'),
+        url('BwBeto-LightItalic.svg#BwBeto-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-RegularItalic.eot');
+    src: url('BwBeto-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-RegularItalic.woff2') format('woff2'),
+        url('BwBeto-RegularItalic.woff') format('woff'),
+        url('BwBeto-RegularItalic.svg#BwBeto-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-Medium.eot');
+    src: url('BwBeto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-Medium.woff2') format('woff2'),
+        url('BwBeto-Medium.woff') format('woff'),
+        url('BwBeto-Medium.svg#BwBeto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-MediumItalic.eot');
+    src: url('BwBeto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-MediumItalic.woff2') format('woff2'),
+        url('BwBeto-MediumItalic.woff') format('woff'),
+        url('BwBeto-MediumItalic.svg#BwBeto-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bw Beto';
+    src: url('BwBeto-Regular.eot');
+    src: url('BwBeto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BwBeto-Regular.woff2') format('woff2'),
+        url('BwBeto-Regular.woff') format('woff'),
+        url('BwBeto-Regular.svg#BwBeto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

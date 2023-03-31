@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-Bold.eot');
+    src: url('Rapor-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-Bold.woff2') format('woff2'),
+        url('Rapor-Bold.woff') format('woff'),
+        url('Rapor-Bold.svg#Rapor-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-BlackItalic.eot');
+    src: url('Rapor-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-BlackItalic.woff2') format('woff2'),
+        url('Rapor-BlackItalic.woff') format('woff'),
+        url('Rapor-BlackItalic.svg#Rapor-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-Black.eot');
+    src: url('Rapor-Black.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-Black.woff2') format('woff2'),
+        url('Rapor-Black.woff') format('woff'),
+        url('Rapor-Black.svg#Rapor-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-LightItalic.eot');
+    src: url('Rapor-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-LightItalic.woff2') format('woff2'),
+        url('Rapor-LightItalic.woff') format('woff'),
+        url('Rapor-LightItalic.svg#Rapor-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor Book';
+    src: url('Rapor-Book.eot');
+    src: url('Rapor-Book.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-Book.woff2') format('woff2'),
+        url('Rapor-Book.woff') format('woff'),
+        url('Rapor-Book.svg#Rapor-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor ExtLt';
+    src: url('Rapor-ExtraLightItalic.eot');
+    src: url('Rapor-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-ExtraLightItalic.woff2') format('woff2'),
+        url('Rapor-ExtraLightItalic.woff') format('woff'),
+        url('Rapor-ExtraLightItalic.svg#Rapor-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor ExtBd';
+    src: url('Rapor-ExtraBoldItalic.eot');
+    src: url('Rapor-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-ExtraBoldItalic.woff2') format('woff2'),
+        url('Rapor-ExtraBoldItalic.woff') format('woff'),
+        url('Rapor-ExtraBoldItalic.svg#Rapor-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor Book';
+    src: url('Rapor-BookItalic.eot');
+    src: url('Rapor-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-BookItalic.woff2') format('woff2'),
+        url('Rapor-BookItalic.woff') format('woff'),
+        url('Rapor-BookItalic.svg#Rapor-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-BoldItalic.eot');
+    src: url('Rapor-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-BoldItalic.woff2') format('woff2'),
+        url('Rapor-BoldItalic.woff') format('woff'),
+        url('Rapor-BoldItalic.svg#Rapor-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-Light.eot');
+    src: url('Rapor-Light.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-Light.woff2') format('woff2'),
+        url('Rapor-Light.woff') format('woff'),
+        url('Rapor-Light.svg#Rapor-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor ExtBd';
+    src: url('Rapor-ExtraBold.eot');
+    src: url('Rapor-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-ExtraBold.woff2') format('woff2'),
+        url('Rapor-ExtraBold.woff') format('woff'),
+        url('Rapor-ExtraBold.svg#Rapor-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor ExtLt';
+    src: url('Rapor-ExtraLight.eot');
+    src: url('Rapor-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-ExtraLight.woff2') format('woff2'),
+        url('Rapor-ExtraLight.woff') format('woff'),
+        url('Rapor-ExtraLight.svg#Rapor-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor Med';
+    src: url('Rapor-MediumItalic.eot');
+    src: url('Rapor-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-MediumItalic.woff2') format('woff2'),
+        url('Rapor-MediumItalic.woff') format('woff'),
+        url('Rapor-MediumItalic.svg#Rapor-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-RegularItalic.eot');
+    src: url('Rapor-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-RegularItalic.woff2') format('woff2'),
+        url('Rapor-RegularItalic.woff') format('woff'),
+        url('Rapor-RegularItalic.svg#Rapor-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-Regular.eot');
+    src: url('Rapor-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-Regular.woff2') format('woff2'),
+        url('Rapor-Regular.woff') format('woff'),
+        url('Rapor-Regular.svg#Rapor-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor SemBd';
+    src: url('Rapor-SemiBold.eot');
+    src: url('Rapor-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-SemiBold.woff2') format('woff2'),
+        url('Rapor-SemiBold.woff') format('woff'),
+        url('Rapor-SemiBold.svg#Rapor-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor Med';
+    src: url('Rapor-Medium.eot');
+    src: url('Rapor-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-Medium.woff2') format('woff2'),
+        url('Rapor-Medium.woff') format('woff'),
+        url('Rapor-Medium.svg#Rapor-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor SemBd';
+    src: url('Rapor-SemiBoldItalic.eot');
+    src: url('Rapor-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-SemiBoldItalic.woff2') format('woff2'),
+        url('Rapor-SemiBoldItalic.woff') format('woff'),
+        url('Rapor-SemiBoldItalic.svg#Rapor-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-Thin.eot');
+    src: url('Rapor-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-Thin.woff2') format('woff2'),
+        url('Rapor-Thin.woff') format('woff'),
+        url('Rapor-Thin.svg#Rapor-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rapor';
+    src: url('Rapor-ThinItalic.eot');
+    src: url('Rapor-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Rapor-ThinItalic.woff2') format('woff2'),
+        url('Rapor-ThinItalic.woff') format('woff'),
+        url('Rapor-ThinItalic.svg#Rapor-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
