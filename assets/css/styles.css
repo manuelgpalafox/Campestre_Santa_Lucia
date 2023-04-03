@@ -512,3 +512,142 @@ header {
     margin: 0;
 }
 
+.hacemos_realidad{
+    height: 650px;
+    width: 100%;
+    background-color: white;
+}
+
+.hacemos_realidad h2{
+    padding: 0;
+    margin: 0;
+}
+
+.hacemos_realidad .mitad{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hacemos_realidad .mitad h2{
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+.hacemos_realidad .mitad .container{
+    height: 100%;
+}
+
+.hacemos_realidad .container .texto{
+    box-sizing: border-box;
+}
+
+.hacemos_realidad .container .encabezado{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: left;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.hacemos_realidad .container .encabezado h6{
+    color: black;
+}
+
+.hacemos_realidad .container .texto{
+    padding-top: 20px;
+}
+
+.hacemos_realidad .mitad2{
+    height: 70%;
+}
+
+.hacemos_realidad .mitad2 p{
+    margin: 0;
+}
+
+.hacemos_realidad .mitad2 .container{
+    height: 100%;
+}
+
+.hacemos_realidad .mitad2 .container .texto{
+    height: 30%;
+}
+
+.hacemos_realidad .mitad2 .container .modelos{
+    height: 70%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.hacemos_realidad .mitad2 .container .modelos .dis{
+    width: 33%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.hacemos_realidad .mitad2 .container .modelos .dis3{
+    width: 33%;
+    height: 100%;
+}
+
+
+
+.dis1{
+    background-image: url(../diseno.jpg);
+    background-size: cover;
+    background-position-x: right;
+}
+
+.dis .part1{
+    width: 100%;
+    height: 70%;
+}
+
+.dis .part2{
+    width: 100%;
+    height: 30%;
+}
+
+.dis3 .part1{
+    width: 100%;
+    height: 70%;
+}
+
+.dis3 .part2{
+    width: 100%;
+    height: 30%;
+}
+
+.part2{
+    display: flex;
+}
+
+.transparent{
+    width: 10% ;
+    height: 100%;
+}
+
+.white{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.gold-list{ 
+    width: 2%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #c09b71, #8c683e);
+}
+
+.content-dis{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.text-dis a {
+    color: black;
+}
