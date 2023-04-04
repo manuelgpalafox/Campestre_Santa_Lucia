@@ -516,6 +516,7 @@ header {
     height: 650px;
     width: 100%;
     background-color: white;
+    margin-bottom: 120px;
 }
 
 .hacemos_realidad h2{
@@ -650,4 +651,85 @@ header {
 
 .text-dis a {
     color: black;
+}
+
+/*Inicio estilos seccion instalaciones*/
+
+.quieres-personalizar-background{
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 35%;
+    height: 230px;
+    background-image: url(../fraccionamiento_tus_suenos_background.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.quieres-personalizar{
+    width: 100%;
+    height: 230px;
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quieres-personalizar h6{
+    text-align: left;
+    font-size: large;
+}
+
+.quieres-personalizar .container{
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.box {
+    width: 33%;
+    height: 100%;
+}
+
+.quieres-img{
+    background-image: url(../cover_background.jpg);
+    background-size: cover;
+}
+
+.quieres-text{
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.quieres-cita{
+    display: flex;
+}
+
+.quieres-cita .space{
+    width: 25%;
+    height: 100%;
+}
+
+.quieres-cita .text{
+    width: 75%;
+    height: 100%;
+}
+
+.part{
+    width: 100%;
+    height: 33.33%;
+}
+
+.cita{
+    background: linear-gradient(to bottom right, #bf9c72, #8a673d);
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    box-sizing: border-box;
+    padding: 18px;
+}
+
+.cita img{
+    width: 28px;
+    height: 28px;
 }
