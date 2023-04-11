@@ -11,5 +11,5 @@ window.addEventListener('load', function () {
 
 window.addEventListener('load', function () {
     var buttonheight = $(".carousel__contenedor").height();
-    document.getElementById('buttons').style.height = buttonheight+"px";
+    document.getElementById('buttons').style.height = buttonheight + "px";
 });
