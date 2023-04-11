@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santa Lucia - Residencial Campestre</title>
     <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
     <script>
@@ -26,7 +30,6 @@
 </head>
 
 <body>
-
     <div class="navigation_top">
         <div class="container">
             <div class="wrap">
@@ -40,11 +43,11 @@
                         <li><a href="#nosotros">Nosotros</a></li>
                         <li><a href="#fraccionamiento">Fraccionamiento</a></li>
                         <li><a href="#instalaciones">Instalaciones</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                         <li class="nav-whatsapp">
                             <div class="nav-whatsapp-logo"></div><a href="">662 146 8256</a>
                         </li>
-                        <li class="background-gradient"><a href="">Hacer una cita</a></li>
+                        <li class="background-gradient"><a href="#contacto">Hacer una cita</a></li>
                     </ul>
                 </nav>
             </div>
@@ -381,7 +384,7 @@
                         <div class="text">
                             <div class="part"></div>
                             <div class="part2 cita">
-                                <a href=""> <img src="assets/icons/WHATS@3x-white.png" alt="">
+                                <a href="#contacto"> <img src="assets/icons/WHATS@3x-white.png" alt="">
                                     <h6>hacer una cita</h6>
                                 </a>
                             </div>
@@ -454,7 +457,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mitad2">
+                            <div id="contacto" class="mitad2">
                                 <div class="half contactanos-text">
                                     <div class="header">
                                         <div class="side-line">
@@ -475,14 +478,14 @@
                                                 <input type="text" name="name" placeholder="NOMBRE">
                                             </div>
                                             <div class="field">
-                                                <input type="text" name="phone" placeholder="TELÉFONO"> 
+                                                <input type="text" name="phone" placeholder="TELÉFONO">
                                             </div>
                                         </div>
                                         <div class="field">
                                             <input type="text" name="email" placeholder="E MAIL">
                                         </div>
                                         <div class="message">
-                                            <textarea name="message" placeholder="MENSAJE"></textarea>                                            
+                                            <textarea name="message" placeholder="MENSAJE"></textarea>
                                         </div>
                                         <div class="button-area">
                                             <button type="submit">ENVIAR MENSAJE</button>
@@ -490,12 +493,96 @@
                                     </form>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!--Inicio carrusel-->
+
+        <div class="carousel">
+
+            <div id="buttons" class="buttons">
+
+                <button aria-label="Anterior" class="carousel__anterior"><i class="fa-solid fa-chevron-left"></i></button>
+
+
+
+
+                <button aria-label="Siguiente" class="carousel__siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+
+            </div>
+
+            <div id="carousel__contenedor" class="carousel__contenedor">
+
+
+                <div class="carousel__lista">
+                    <div class="carousel__elemento">
+                        <img src="assets/alberca_nosotros.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/alberca_nosotros.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/alberca_nosotros.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/alberca_nosotros.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/alberca_nosotros.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/cover_background.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/cover_background.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/cover_background.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/cover_background.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/cover_background.jpg" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/fraccionamiento_tus_suenos_background.png" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/fraccionamiento_tus_suenos_background.png" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/fraccionamiento_tus_suenos_background.png" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/fraccionamiento_tus_suenos_background.png" alt="">
+                    </div>
+                    <div class="carousel__elemento">
+                        <img src="assets/fraccionamiento_tus_suenos_background.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="gold-banner">
+
+            </div>
+        </div>
+
     </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+        integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

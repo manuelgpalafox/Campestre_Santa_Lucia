@@ -89,7 +89,7 @@ h2 {
     box-sizing: border-box;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     transition: .5s;
 }
 
@@ -97,7 +97,7 @@ h2 {
     box-sizing: border-box;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     background-color: #354341;
 }
 
@@ -992,4 +992,51 @@ form .button-area button{
     width: 100%;
     background: linear-gradient(to bottom right, #c09b71, #8c683e);
     cursor:pointer ;
+}
+
+.carousel{
+    position: relative;
+    padding-top: 1120px;
+    padding-bottom: 2000px;
+}
+
+.carousel .buttons{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gold-banner{
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(to right, #bf9c72, #8c683e);
+}
+
+.carousel__contenedor{
+    display: flex;
+}
+
+.buttons button{
+    height: 100%;
+    width: 5%;
+    background: transparent;
+    border: none;
+    cursor:pointer;
+}
+
+.carousel__lista{
+    overflow: hidden;
+}
+
+.carousel__elemento{
+    min-height: 350px;
+}
+
+.carousel__lista img{
+    object-fit: cover;
+    width: auto;
+    height: 100%;
 }
