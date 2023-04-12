@@ -997,7 +997,7 @@ form .button-area button {
 
 .carousel {
     position: relative;
-    padding-top: 1120px;
+    margin-top: 1490px;
 }
 
 .carousel .buttons {
@@ -1102,7 +1102,9 @@ footer {
     background-image: url(../footer-background.jpg);
     background-size: cover;
     background-position-y: center;
-    filter: blur();
+    background-color: rgba(60,69,67,0.5);
+    /*fill: rgb(60,69,67);*/
+    /*fill="rgb(60, 69, 67)";*/
 }
 
 footer .container {
@@ -1122,8 +1124,8 @@ footer .container .footer-part1 {
 }
 
 footer .container .footer-part1 img {
-    height: 100px;
-    width: 100px;
+    width: 55%;
+    height: auto;
 }
 
 footer .container .footer-part2 {

@@ -1,7 +1,7 @@
 window.addEventListener('load', function () {
     new Glider(document.querySelector('.carousel__lista'), {
-        slidesToShow: 5,
-        slidesToScroll: 5,
+        slidesToShow: 6,
+        slidesToScroll: 6,
         arrows: {
             prev: '.carousel__anterior',
             next: '.carousel__siguiente'
