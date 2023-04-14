@@ -1167,3 +1167,18 @@ footer .container .footer-part3 a p {
     margin-left: 10px;
     margin-bottom: 0;
 }
+
+@media (max-width:600px){
+    .navigation_top{
+        width: 415px;
+    }
+    .container{
+        width: 415px;
+    }
+    .wrap{
+        display:inline-block;
+    }
+    .wrap ul{
+        display: block;
+    }
+}
