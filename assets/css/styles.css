@@ -998,6 +998,7 @@ form .button-area button {
 .carousel {
     position: relative;
     margin-top: 1490px;
+    width: 100%;
 }
 
 .carousel .buttons {
@@ -1006,7 +1007,8 @@ form .button-area button {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
+    height: 300px;
 }
 
 .gold-banner {
@@ -1017,6 +1019,7 @@ form .button-area button {
 
 .carousel__contenedor {
     display: flex;
+    width: 100%;
 }
 
 .buttons button {
@@ -1168,17 +1171,43 @@ footer .container .footer-part3 a p {
     margin-bottom: 0;
 }
 
-@media (max-width:600px){
-    .navigation_top{
-        width: 415px;
-    }
-    .container{
-        width: 415px;
-    }
-    .wrap{
-        display:inline-block;
-    }
-    .wrap ul{
-        display: block;
-    }
-}
+.carousel__lista .carousel__elemento:hover{
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 2px solid #bf9c72;
+ }
+
+
+ .popup-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+ }
+
+ .popup-image span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #bf9c72;
+    cursor: pointer;
+    z-index: 100;
+ }
+
+ .popup-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border: 5px solid #bf9c72;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+ }
+
