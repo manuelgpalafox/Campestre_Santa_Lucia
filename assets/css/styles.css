@@ -90,7 +90,7 @@ h2 {
     box-sizing: border-box;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 102;
     transition: .5s;
 }
 
@@ -98,7 +98,7 @@ h2 {
     box-sizing: border-box;
     width: 100%;
     position: fixed;
-    z-index: 2;
+    z-index: 102;
     background-color: #354341;
 }
 
@@ -198,6 +198,14 @@ header {
     display: flex;
 }
 
+.nosotros_bienvenido .container {
+    background-image: url(../icons/ABST\ 1@3x.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 65%;
+    background-size: 20%;
+}
+
 .nosotros_bienvenido {
     height: 550px;
     background-color: #354341;
@@ -238,12 +246,45 @@ header {
     padding-top: 50px;
     height: 300px;
     width: 70%;
+    box-sizing: border-box;
+    transition: .5s;
 }
 
-.section2 img {
+.section2 .img1 {
+    position: absolute;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    height: 218px;
+    width: 310px;
+    margin-left: 40px;
+    margin-top: 40px;
+    z-index: 3;
+}
+
+.section2 .img2 {
+    position: absolute;
+    object-fit: cover;
+    height: 245px;
+    width: 340px;
+    margin-left: 80px;
+    z-index: 2;
+}
+
+.section2 .img2:hover {
+    z-index: 4;
+}
+
+.section2 .img3 {
+    position: absolute;
+    object-fit: cover;
+    height: 210px;
+    width: 340px;
+    margin-left: 130px;
+    margin-top: 70px;
+    z-index: 1;
+}
+
+.section2 .img3:hover {
+    z-index: 4;
 }
 
 .section3 {
@@ -1003,11 +1044,11 @@ form .button-area button {
 
 .carousel .buttons {
     position: absolute;
-    z-index: 1;
+    z-index: 101;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+
     height: 300px;
 }
 
@@ -1105,7 +1146,7 @@ footer {
     background-image: url(../footer-background.jpg);
     background-size: cover;
     background-position-y: center;
-    background-color: rgba(60,69,67,0.5);
+    background-color: rgba(60, 69, 67, 0.5);
     /*fill: rgb(60,69,67);*/
     /*fill="rgb(60, 69, 67)";*/
 }
@@ -1171,25 +1212,25 @@ footer .container .footer-part3 a p {
     margin-bottom: 0;
 }
 
-.carousel__lista .carousel__elemento:hover{
+.carousel__lista .carousel__elemento:hover {
     box-sizing: border-box;
     cursor: pointer;
     border: 2px solid #bf9c72;
- }
+}
 
 
- .popup-image{
+.popup-image {
     position: fixed;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, .9);
     height: 100%;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
     display: none;
- }
+}
 
- .popup-image span{
+.popup-image span {
     position: absolute;
     top: 0;
     right: 10px;
@@ -1197,17 +1238,16 @@ footer .container .footer-part3 a p {
     font-weight: bolder;
     color: #bf9c72;
     cursor: pointer;
-    z-index: 100;
- }
+    z-index: 1000;
+}
 
- .popup-image img{
+.popup-image img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     border: 5px solid #bf9c72;
     border-radius: 5px;
     width: 750px;
     object-fit: cover;
- }
-
+}
